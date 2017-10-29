@@ -1,10 +1,10 @@
-﻿using NJsonApi.Test.TestModel;
-using NJsonApi.Utils;
+﻿using NJsonApiCore.Test.TestModel;
+using NJsonApiCore.Utils;
 using System;
 using System.Collections.Generic;
 using Xunit;
 
-namespace NJsonApi.Test.Utils
+namespace NJsonApiCore.Test.Utils
 {
     public class ReflectionUnitTests
     {

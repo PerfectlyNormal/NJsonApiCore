@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
-using NJsonApi.Serialization.Representations.Resources;
+using NJsonApiCore.Serialization.Representations.Resources;
 
-namespace NJsonApi.Serialization.Representations.Relationships
+namespace NJsonApiCore.Serialization.Representations.Relationships
 {
     public class SingleResourceIdentifier : IResourceLinkage, IResourceIdentifier
     {

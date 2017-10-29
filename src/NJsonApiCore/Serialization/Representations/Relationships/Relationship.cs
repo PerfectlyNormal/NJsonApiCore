@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace NJsonApi.Serialization.Representations.Relationships
+namespace NJsonApiCore.Serialization.Representations.Relationships
 {
     public class Relationship : IRelationship
     {

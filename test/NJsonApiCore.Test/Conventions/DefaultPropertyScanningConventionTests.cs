@@ -1,9 +1,9 @@
-﻿using NJsonApi.Conventions.Impl;
-using NJsonApi.Test.TestModel;
+﻿using NJsonApiCore.Conventions.Impl;
+using NJsonApiCore.Test.TestModel;
 using System.Reflection;
 using Xunit;
 
-namespace NJsonApi.Test.Conventions
+namespace NJsonApiCore.Test.Conventions
 {
     public class DefaultPropertyScanningConventionTests
     {

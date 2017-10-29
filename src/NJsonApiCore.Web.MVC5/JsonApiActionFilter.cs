@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using NJsonApi;
-using NJsonApi.Infrastructure;
-using NJsonApi.Serialization;
+using NJsonApiCore.Infrastructure;
+using NJsonApiCore.Serialization;
 using System;
 using System.Collections.Generic;
 using System.Linq;

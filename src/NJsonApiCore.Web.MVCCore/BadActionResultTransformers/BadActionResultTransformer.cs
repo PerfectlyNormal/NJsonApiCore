@@ -1,10 +1,10 @@
-﻿using NJsonApi.Serialization.Documents;
+﻿using NJsonApiCore.Serialization.Documents;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 
-namespace NJsonApi.Web.MVCCore.BadActionResultTransformers
+namespace NJsonApiCore.Web.MVCCore.BadActionResultTransformers
 {
     public static class BadActionResultTransformer
     {

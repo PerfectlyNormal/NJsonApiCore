@@ -1,9 +1,9 @@
 ﻿
-using NJsonApi.Infrastructure;
+using NJsonApiCore.Infrastructure;
 using System;
 using System.Reflection;
 
-namespace NJsonApi
+namespace NJsonApiCore
 {
     public interface IRelationshipMapping
     {

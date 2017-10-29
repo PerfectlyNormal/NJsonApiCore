@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using NJsonApi.Serialization.Representations.Relationships;
+using NJsonApiCore.Serialization.Representations.Relationships;
 
-namespace NJsonApi.Serialization
+namespace NJsonApiCore.Serialization
 {
     public sealed class SingleResourceIdentifierComparer : IEqualityComparer<SingleResourceIdentifier>
     { 

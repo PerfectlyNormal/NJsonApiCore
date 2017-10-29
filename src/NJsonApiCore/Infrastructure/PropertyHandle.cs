@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq.Expressions;
-using NJsonApi.Utils;
+using NJsonApiCore.Utils;
 
 
-namespace NJsonApi.Infrastructure
+namespace NJsonApiCore.Infrastructure
 {
     public class PropertyHandle<TResource, TProperty> : IPropertyHandle<TResource, TProperty>
     {

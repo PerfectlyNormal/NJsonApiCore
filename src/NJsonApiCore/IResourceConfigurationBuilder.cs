@@ -1,4 +1,4 @@
-﻿namespace NJsonApi
+﻿namespace NJsonApiCore
 {
     public interface IResourceConfigurationBuilder
     {

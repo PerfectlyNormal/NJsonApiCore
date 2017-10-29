@@ -1,13 +1,13 @@
-﻿using NJsonApi.Test.Builders;
-using NJsonApi.Test.Fakes;
-using NJsonApi.Test.TestModel;
-using NJsonApi.Web.MVCCore.Serialization;
+﻿using NJsonApiCore.Test.Builders;
+using NJsonApiCore.Test.Fakes;
+using NJsonApiCore.Test.TestModel;
+using NJsonApiCore.Web.MVCCore.Serialization;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using Xunit;
 
-namespace NJsonApi.Test.Serialization
+namespace NJsonApiCore.Test.Serialization
 {
     public class LinkBuilderTests
     {

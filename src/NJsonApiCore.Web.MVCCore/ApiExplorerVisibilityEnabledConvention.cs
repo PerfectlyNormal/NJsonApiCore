@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
 
-namespace NJsonApi.Web.MVCCore
+namespace NJsonApiCore.Web.MVCCore
 {
     public class ApiExplorerVisibilityEnabledConvention : IApplicationModelConvention
     {

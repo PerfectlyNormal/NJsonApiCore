@@ -1,10 +1,10 @@
-﻿using NJsonApi.Serialization;
-using NJsonApi.Test.Fakes;
+﻿using NJsonApiCore.Serialization;
+using NJsonApiCore.Test.Fakes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace NJsonApi.Test.Builders
+namespace NJsonApiCore.Test.Builders
 {
     internal class JsonApiTransformerBuilder
     {

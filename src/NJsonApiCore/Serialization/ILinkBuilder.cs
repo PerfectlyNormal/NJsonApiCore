@@ -1,6 +1,6 @@
-﻿using NJsonApi.Serialization.Representations;
+﻿using NJsonApiCore.Serialization.Representations;
 
-namespace NJsonApi.Serialization
+namespace NJsonApiCore.Serialization
 {
     public interface ILinkBuilder
     {

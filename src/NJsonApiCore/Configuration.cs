@@ -1,15 +1,15 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
-using NJsonApi.Exceptions;
-using NJsonApi.Serialization.Converters;
-using NJsonApi.Utils;
+using NJsonApiCore.Exceptions;
+using NJsonApiCore.Serialization.Converters;
+using NJsonApiCore.Utils;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace NJsonApi
+namespace NJsonApiCore
 {
     public class Configuration : IConfiguration
     {

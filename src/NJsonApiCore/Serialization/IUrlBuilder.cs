@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NJsonApi.Serialization
+namespace NJsonApiCore.Serialization
 {
     internal interface IUrlBuilder
     {

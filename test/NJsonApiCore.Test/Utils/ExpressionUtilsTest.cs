@@ -1,10 +1,10 @@
-﻿using NJsonApi.Utils;
+﻿using NJsonApiCore.Utils;
 using System;
 using System.Diagnostics;
 using System.Reflection;
 using Xunit;
 
-namespace NJsonApi.Common.Test.Utils
+namespace NJsonApiCore.Common.Test.Utils
 {
     public class ExpressionUtilsTest
     {

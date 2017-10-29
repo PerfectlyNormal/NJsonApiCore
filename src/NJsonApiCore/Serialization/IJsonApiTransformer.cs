@@ -1,8 +1,8 @@
-using NJsonApi.Infrastructure;
-using NJsonApi.Serialization.Documents;
+using NJsonApiCore.Infrastructure;
+using NJsonApiCore.Serialization.Documents;
 using System;
 
-namespace NJsonApi.Serialization
+namespace NJsonApiCore.Serialization
 {
     public interface IJsonApiTransformer
     {

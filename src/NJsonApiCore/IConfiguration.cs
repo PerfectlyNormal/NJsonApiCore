@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace NJsonApi
+namespace NJsonApiCore
 {
     public interface IConfiguration
     {

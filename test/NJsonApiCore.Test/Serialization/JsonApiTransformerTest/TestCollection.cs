@@ -1,15 +1,15 @@
-﻿using NJsonApi.Infrastructure;
-using NJsonApi.Serialization.Documents;
-using NJsonApi.Serialization.Representations;
-using NJsonApi.Serialization.Representations.Resources;
-using NJsonApi.Test.Builders;
-using NJsonApi.Test.TestControllers;
+﻿using NJsonApiCore.Infrastructure;
+using NJsonApiCore.Serialization.Documents;
+using NJsonApiCore.Serialization.Representations;
+using NJsonApiCore.Serialization.Representations.Resources;
+using NJsonApiCore.Test.Builders;
+using NJsonApiCore.Test.TestControllers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using Xunit;
 
-namespace NJsonApi.Test.Serialization.JsonApiTransformerTest
+namespace NJsonApiCore.Test.Serialization.JsonApiTransformerTest
 {
     public class TestCollection
     {
@@ -206,7 +206,7 @@ namespace NJsonApi.Test.Serialization.JsonApiTransformerTest
             derivedMapping.AddPropertyGetter("date", c => c.DateTime);
             derivedMapping.AddPropertyGetter("derivedProperty", c => c.DerivedProperty);
 
-            var config = new NJsonApi.Configuration();
+            var config = new NJsonApiCore.Configuration();
             config.AddMapping(mapping);
             config.AddMapping(derivedMapping);
             return config;

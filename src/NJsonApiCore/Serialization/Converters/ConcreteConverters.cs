@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace NJsonApi.Serialization.Converters
+namespace NJsonApiCore.Serialization.Converters
 {
     public class ConcreteConverter<T> : JsonConverter
     {

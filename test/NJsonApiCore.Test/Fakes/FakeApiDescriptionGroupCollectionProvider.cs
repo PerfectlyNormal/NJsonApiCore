@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.AspNetCore.Mvc.Controllers;
-using NJsonApi.Test.TestControllers;
+using NJsonApiCore.Test.TestControllers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace NJsonApi.Test.Fakes
+namespace NJsonApiCore.Test.Fakes
 {
     public class FakeApiDescriptionGroupCollectionProvider : IApiDescriptionGroupCollectionProvider
     {

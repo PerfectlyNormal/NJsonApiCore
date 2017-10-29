@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace NJsonApi.Serialization.Converters
+namespace NJsonApiCore.Serialization.Converters
 {
     internal interface ISerializationAware
     {

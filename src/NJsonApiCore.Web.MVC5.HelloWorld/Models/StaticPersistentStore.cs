@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace NJsonApi.Web.MVC5.HelloWorld.Models
+namespace NJsonApiCore.Web.MVC5.HelloWorld.Models
 {
     /// <summary>
     /// Primitive backing store for persistence.

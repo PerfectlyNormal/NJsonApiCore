@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq.Expressions;
 
-namespace NJsonApi.Conventions
+namespace NJsonApiCore.Conventions
 {
     /// <summary>
     /// Represents a convention for discovering the ID expression for a linked resource given the expression pointing to a reference of that resource.

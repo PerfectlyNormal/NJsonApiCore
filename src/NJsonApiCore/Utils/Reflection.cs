@@ -1,9 +1,9 @@
-﻿using NJsonApi.Infrastructure;
+﻿using NJsonApiCore.Infrastructure;
 using System;
 using System.Collections;
 using System.Reflection;
 
-namespace NJsonApi.Utils
+namespace NJsonApiCore.Utils
 {
     public static class Reflection
     {

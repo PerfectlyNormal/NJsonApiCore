@@ -1,15 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using NJsonApi.Serialization;
-using NJsonApi.Serialization.Documents;
-using NJsonApi.Serialization.Representations.Resources;
-using NJsonApi.Test.Builders;
-using NJsonApi.Test.TestControllers;
-using NJsonApi.Web;
-using NJsonApi.Web.MVCCore;
+using NJsonApiCore.Serialization;
+using NJsonApiCore.Serialization.Documents;
+using NJsonApiCore.Serialization.Representations.Resources;
+using NJsonApiCore.Test.Builders;
+using NJsonApiCore.Test.TestControllers;
+using NJsonApiCore.Web;
+using NJsonApiCore.Web.MVCCore;
 using System.Linq;
 using Xunit;
 
-namespace NJsonApi.Test.Serialization
+namespace NJsonApiCore.Test.Serialization
 {
     public class ActionFilterTests
     {

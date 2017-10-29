@@ -1,10 +1,10 @@
 ﻿using System;
 using Newtonsoft.Json;
-using NJsonApi.Serialization.Representations;
+using NJsonApiCore.Serialization.Representations;
 using Newtonsoft.Json.Linq;
-using NJsonApi.Serialization.Representations.Relationships;
+using NJsonApiCore.Serialization.Representations.Relationships;
 
-namespace NJsonApi.Serialization.Converters
+namespace NJsonApiCore.Serialization.Converters
 {
     public class RelationshipDataConverter : JsonConverter
     {

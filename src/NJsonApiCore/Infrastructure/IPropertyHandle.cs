@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq.Expressions;
 
-namespace NJsonApi.Infrastructure
+namespace NJsonApiCore.Infrastructure
 {
     public interface IPropertyHandle
     {

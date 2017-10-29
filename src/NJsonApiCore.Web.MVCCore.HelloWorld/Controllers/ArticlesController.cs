@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using NJsonApi.Infrastructure;
-using NJsonApi.Web.MVCCore.HelloWorld.Models;
+using NJsonApiCore.Infrastructure;
+using NJsonApiCore.Web.MVCCore.HelloWorld.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
 
-namespace NJsonApi.Web.MVCCore.HelloWorld.Controllers
+namespace NJsonApiCore.Web.MVCCore.HelloWorld.Controllers
 {
     [Route("[controller]")]
     public class ArticlesController : Controller

@@ -1,10 +1,10 @@
-﻿using NJsonApi.Infrastructure;
-using NJsonApi.Test.TestModel;
+﻿using NJsonApiCore.Infrastructure;
+using NJsonApiCore.Test.TestModel;
 using System;
 using System.Collections.Generic;
 using Xunit;
 
-namespace NJsonApi.Test.Infrastructure
+namespace NJsonApiCore.Test.Infrastructure
 {
     public class DeltaTest
     {

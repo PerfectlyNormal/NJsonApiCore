@@ -1,12 +1,12 @@
-﻿using NJsonApi.Serialization;
-using NJsonApi.Serialization.Representations.Resources;
-using NJsonApi.Test.Builders;
-using NJsonApi.Test.TestModel;
+﻿using NJsonApiCore.Serialization;
+using NJsonApiCore.Serialization.Representations.Resources;
+using NJsonApiCore.Test.Builders;
+using NJsonApiCore.Test.TestModel;
 using System;
 using System.Collections.Generic;
 using Xunit;
 
-namespace NJsonApi.Test.Serialization.JsonApiTransformerTest
+namespace NJsonApiCore.Test.Serialization.JsonApiTransformerTest
 {
     public class TestTransformBack
     {

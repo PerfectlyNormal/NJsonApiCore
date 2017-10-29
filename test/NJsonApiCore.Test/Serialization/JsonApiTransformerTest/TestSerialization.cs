@@ -1,11 +1,11 @@
 ﻿using Newtonsoft.Json;
-using NJsonApi.Test.Builders;
-using NJsonApi.Test.TestControllers;
+using NJsonApiCore.Test.Builders;
+using NJsonApiCore.Test.TestControllers;
 using System;
 using System.Collections.Generic;
 using Xunit;
 
-namespace NJsonApi.Test.Serialization.JsonApiTransformerTest
+namespace NJsonApiCore.Test.Serialization.JsonApiTransformerTest
 {
     public class TestSerialization
     {
@@ -72,7 +72,7 @@ namespace NJsonApi.Test.Serialization.JsonApiTransformerTest
 
         private IConfiguration CreateConfiguration()
         {
-            var conf = new NJsonApi.Configuration();
+            var conf = new NJsonApiCore.Configuration();
             var sampleClassMapping = new ResourceMapping<SampleClass, DummyController>(c => c.Id);
             sampleClassMapping.ResourceType = "sampleClasses";
             sampleClassMapping.AddPropertyGetter("someValue", c => c.SomeValue);

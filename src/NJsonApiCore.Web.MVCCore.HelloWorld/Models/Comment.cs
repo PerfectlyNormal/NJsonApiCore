@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using NJsonApi.Web.MVCCore.HelloWorld.Models;
+using NJsonApiCore.Web.MVCCore.HelloWorld.Models;
 
-namespace NJsonApi.Web.MVCCore.HelloWorld.Models
+namespace NJsonApiCore.Web.MVCCore.HelloWorld.Models
 {
     public class Comment
     {

@@ -2,7 +2,7 @@
 using System;
 using System.Reflection;
 
-namespace NJsonApi.Serialization.Converters
+namespace NJsonApiCore.Serialization.Converters
 {
     internal class SerializationAwareConverter : JsonConverter
     {

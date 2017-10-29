@@ -1,11 +1,11 @@
-﻿using NJsonApi.Serialization;
+﻿using NJsonApiCore.Serialization;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using NJsonApi.Serialization.Representations;
+using NJsonApiCore.Serialization.Representations;
 
-namespace NJsonApi.Test.Fakes
+namespace NJsonApiCore.Test.Fakes
 {
     internal class FakeLinkBuilder : ILinkBuilder
     {

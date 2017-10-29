@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace NJsonApi.Test.TestModel
+namespace NJsonApiCore.Test.TestModel
 {
     public class ModelWithoutAnId
     {

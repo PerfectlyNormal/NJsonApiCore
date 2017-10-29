@@ -1,16 +1,16 @@
-﻿using NJsonApi;
-using NJsonApi.Serialization;
-using NJsonApi.Serialization.Representations.Resources;
-using NJsonApi.Test.Builders;
-using NJsonApi.Test.Fakes;
-using NJsonApi.Test.TestModel;
+﻿using NJsonApiCore;
+using NJsonApiCore.Serialization;
+using NJsonApiCore.Serialization.Representations.Resources;
+using NJsonApiCore.Test.Builders;
+using NJsonApiCore.Test.Fakes;
+using NJsonApiCore.Test.TestModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace NJsonApi.Test.Serialization
+namespace NJsonApiCore.Test.Serialization
 {
     public class IncludedResourcesTests
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NJsonApi.Exceptions
+namespace NJsonApiCore.Exceptions
 {
     internal class MissingMappingException : Exception
     {

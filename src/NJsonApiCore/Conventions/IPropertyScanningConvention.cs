@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace NJsonApi.Conventions
+namespace NJsonApiCore.Conventions
 {
     /// <summary>
     /// Represents a set of conventions for property scanning.

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Http;
-using NJsonApi.Web.MVC5.HelloWorld.Models;
+using NJsonApiCore.Web.MVC5.HelloWorld.Models;
 
 namespace NJsonApiCore.Web.MVC5.HelloWorld.Controllers
 {

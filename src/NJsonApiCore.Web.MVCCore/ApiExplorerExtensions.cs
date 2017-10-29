@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.AspNetCore.Mvc.Controllers;
 using Microsoft.AspNetCore.Routing.Template;
 
-namespace NJsonApi.Web.MVCCore
+namespace NJsonApiCore.Web.MVCCore
 {
     internal static class ApiExplorerExtensions
     {

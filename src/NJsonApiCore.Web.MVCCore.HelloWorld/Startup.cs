@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using NJsonApi.Serialization;
+using NJsonApiCore.Serialization;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,9 +12,9 @@ using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.AspNetCore.StaticFiles.Infrastructure;
 using Microsoft.Net.Http.Headers;
 using Newtonsoft.Json.Serialization;
-using NJsonApi.Web.MVCCore.Serialization;
+using NJsonApiCore.Web.MVCCore.Serialization;
 
-namespace NJsonApi.Web.MVCCore.HelloWorld
+namespace NJsonApiCore.Web.MVCCore.HelloWorld
 {
     public class Startup
     {

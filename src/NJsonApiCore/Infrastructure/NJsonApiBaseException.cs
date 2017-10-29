@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace NJsonApi.Infrastructure
+namespace NJsonApiCore.Infrastructure
 {
     internal class NJsonApiBaseException : Exception
     {

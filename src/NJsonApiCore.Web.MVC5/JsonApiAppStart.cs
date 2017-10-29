@@ -1,7 +1,7 @@
 ﻿using Microsoft.Practices.Unity;
 using NJsonApi;
-using NJsonApi.Serialization;
-using NJsonApi.Web.MVC5.Serialization;
+using NJsonApiCore.Serialization;
+using NJsonApiCore.Web.MVC5.Serialization;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;

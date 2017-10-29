@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
-using NJsonApi.Serialization.Converters;
+using NJsonApiCore.Serialization.Converters;
 using System;
 
-namespace NJsonApi.Serialization.Representations
+namespace NJsonApiCore.Serialization.Representations
 {
     [JsonConverter(typeof(SerializationAwareConverter))]
     public class SimpleLink : ILink, ISerializationAware

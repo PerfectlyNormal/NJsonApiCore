@@ -1,4 +1,4 @@
-﻿namespace NJsonApi.Serialization.Representations.Resources
+﻿namespace NJsonApiCore.Serialization.Representations.Resources
 {
     internal interface IResourceIdentifier
     {

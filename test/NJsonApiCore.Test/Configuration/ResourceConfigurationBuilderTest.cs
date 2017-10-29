@@ -1,8 +1,8 @@
-﻿using NJsonApi.Test.TestControllers;
-using NJsonApi.Test.TestModel;
+﻿using NJsonApiCore.Test.TestControllers;
+using NJsonApiCore.Test.TestModel;
 using Xunit;
 
-namespace NJsonApi.Test.Configuration
+namespace NJsonApiCore.Test.Configuration
 {
     public class ResourceConfigurationBuilderTest
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NJsonApi
+namespace NJsonApiCore
 {
     public class Context
     {

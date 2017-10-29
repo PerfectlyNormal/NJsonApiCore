@@ -1,12 +1,12 @@
-﻿using NJsonApi.Conventions.Impl;
-using NJsonApi.Test.TestControllers;
-using NJsonApi.Test.TestModel;
+﻿using NJsonApiCore.Conventions.Impl;
+using NJsonApiCore.Test.TestControllers;
+using NJsonApiCore.Test.TestModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using Xunit;
 
-namespace NJsonApi.Test.Configuration
+namespace NJsonApiCore.Test.Configuration
 {
     public class ConfigurationBuilderTest
     {

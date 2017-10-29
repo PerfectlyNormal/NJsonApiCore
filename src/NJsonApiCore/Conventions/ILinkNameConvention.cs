@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq.Expressions;
 
-namespace NJsonApi.Conventions
+namespace NJsonApiCore.Conventions
 {
     /// <summary>
     /// Represents a convention for link names given the expression pointing and the linked resource property.

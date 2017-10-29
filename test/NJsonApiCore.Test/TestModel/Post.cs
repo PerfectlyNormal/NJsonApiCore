@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace NJsonApi.Test.TestModel
+namespace NJsonApiCore.Test.TestModel
 {
     internal class Post
     {

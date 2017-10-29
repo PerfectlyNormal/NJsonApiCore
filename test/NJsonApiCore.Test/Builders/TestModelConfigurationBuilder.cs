@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using NJsonApi;
-using NJsonApi.Test.TestModel;
-using NJsonApi.Test.TestControllers;
+using NJsonApiCore;
+using NJsonApiCore.Test.TestModel;
+using NJsonApiCore.Test.TestControllers;
 
-namespace NJsonApi.Test.Builders
+namespace NJsonApiCore.Test.Builders
 {
     internal static class TestModelConfigurationBuilder
     {

@@ -1,11 +1,11 @@
-﻿using NJsonApi.Serialization.Documents;
-using NJsonApi.Serialization.Representations;
+﻿using NJsonApiCore.Serialization.Documents;
+using NJsonApiCore.Serialization.Representations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 
-namespace NJsonApi.Web.MVCCore.BadActionResultTransformers
+namespace NJsonApiCore.Web.MVCCore.BadActionResultTransformers
 {
     internal abstract class BaseTransformBadAction<T> : ICanTransformBadActions
         where T : class, IActionResult

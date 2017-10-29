@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using NJsonApi.Test.TestModel;
-using NJsonApi.Web.MVCCore.BadActionResultTransformers;
+using NJsonApiCore.Test.TestModel;
+using NJsonApiCore.Web.MVCCore.BadActionResultTransformers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using Xunit;
 
-namespace NJsonApi.Test.Serialization
+namespace NJsonApiCore.Test.Serialization
 {
     public class BadActionTransformerTests
     {

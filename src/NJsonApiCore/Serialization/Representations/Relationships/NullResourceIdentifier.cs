@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
-using NJsonApi.Serialization.Converters;
+using NJsonApiCore.Serialization.Converters;
 
-namespace NJsonApi.Serialization.Representations.Relationships
+namespace NJsonApiCore.Serialization.Representations.Relationships
 {
     /// <summary>
     /// This "null-object" pattern is used to distinguish null resource linkage from lack of resource linkage which, according to spec, signifies two different states.

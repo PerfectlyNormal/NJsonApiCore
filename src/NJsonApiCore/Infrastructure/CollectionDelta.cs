@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace NJsonApi.Infrastructure
+namespace NJsonApiCore.Infrastructure
 {
     public class CollectionDelta<TElement> : ICollectionDelta<TElement>
     {

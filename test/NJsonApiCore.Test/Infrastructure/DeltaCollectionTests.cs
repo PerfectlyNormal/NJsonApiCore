@@ -1,9 +1,9 @@
-﻿using NJsonApi.Infrastructure;
+﻿using NJsonApiCore.Infrastructure;
 using System.Collections.Generic;
 using System.Linq;
 using Xunit;
 
-namespace NJsonApi.Common.Test.Infrastructure
+namespace NJsonApiCore.Common.Test.Infrastructure
 {
     public class DeltaCollectionTests
     {

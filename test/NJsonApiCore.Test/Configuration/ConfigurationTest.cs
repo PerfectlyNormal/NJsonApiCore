@@ -1,8 +1,8 @@
-﻿using NJsonApi.Test.TestControllers;
-using NJsonApi.Test.TestModel;
+﻿using NJsonApiCore.Test.TestControllers;
+using NJsonApiCore.Test.TestModel;
 using Xunit;
 
-namespace NJsonApi.Test.Configuration
+namespace NJsonApiCore.Test.Configuration
 {
     public class ConfigurationTest
     {
@@ -17,7 +17,7 @@ namespace NJsonApi.Test.Configuration
 
             sampleMapping.AddPropertyGetter("value", c => c.Title);
 
-            var conf = new NJsonApi.Configuration();
+            var conf = new NJsonApiCore.Configuration();
 
             // Act
             conf.AddMapping(sampleMapping);

@@ -1,15 +1,15 @@
 ﻿using Newtonsoft.Json;
-using NJsonApi.Infrastructure;
-using NJsonApi.Serialization.Documents;
-using NJsonApi.Serialization.Representations;
-using NJsonApi.Serialization.Representations.Relationships;
-using NJsonApi.Utils;
+using NJsonApiCore.Infrastructure;
+using NJsonApiCore.Serialization.Documents;
+using NJsonApiCore.Serialization.Representations;
+using NJsonApiCore.Serialization.Representations.Relationships;
+using NJsonApiCore.Utils;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace NJsonApi.Serialization
+namespace NJsonApiCore.Serialization
 {
     public class JsonApiTransformer : IJsonApiTransformer
     {

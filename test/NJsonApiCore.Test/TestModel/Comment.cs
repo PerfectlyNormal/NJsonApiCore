@@ -1,4 +1,4 @@
-﻿namespace NJsonApi.Test.TestModel
+﻿namespace NJsonApiCore.Test.TestModel
 {
     internal class Comment
     {

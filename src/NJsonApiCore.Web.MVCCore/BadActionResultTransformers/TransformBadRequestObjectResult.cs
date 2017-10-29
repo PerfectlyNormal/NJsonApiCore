@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using NJsonApi.Serialization.Representations;
+using NJsonApiCore.Serialization.Representations;
 
-namespace NJsonApi.Web.MVCCore.BadActionResultTransformers
+namespace NJsonApiCore.Web.MVCCore.BadActionResultTransformers
 {
     internal class TransformBadRequestObjectResult : BaseTransformBadAction<BadRequestObjectResult>
     {

@@ -1,11 +1,11 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using NJsonApi.Serialization.Representations;
-using NJsonApi.Serialization.Representations.Resources;
+using NJsonApiCore.Serialization.Representations;
+using NJsonApiCore.Serialization.Representations.Resources;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace NJsonApi.Serialization.Documents
+namespace NJsonApiCore.Serialization.Documents
 {
     public class CompoundDocument
     {

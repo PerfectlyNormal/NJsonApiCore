@@ -1,12 +1,12 @@
-﻿using NJsonApi.Serialization;
-using NJsonApi.Serialization.Representations;
+﻿using NJsonApiCore.Serialization;
+using NJsonApiCore.Serialization.Representations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.AspNetCore.Routing.Template;
 
-namespace NJsonApi.Web.MVCCore.Serialization
+namespace NJsonApiCore.Web.MVCCore.Serialization
 {
     public class LinkBuilder : ILinkBuilder
     {

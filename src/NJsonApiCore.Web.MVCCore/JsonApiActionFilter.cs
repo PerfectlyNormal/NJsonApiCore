@@ -3,15 +3,15 @@ using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
-using NJsonApi.Serialization;
-using NJsonApi.Web.MVCCore.BadActionResultTransformers;
+using NJsonApiCore.Serialization;
+using NJsonApiCore.Web.MVCCore.BadActionResultTransformers;
 using System;
 using System.IO;
 using System.Linq;
 using Newtonsoft.Json;
-using NJsonApi.Infrastructure;
+using NJsonApiCore.Infrastructure;
 
-namespace NJsonApi.Web
+namespace NJsonApiCore.Web
 {
     public class JsonApiActionFilter : ActionFilterAttribute
     {

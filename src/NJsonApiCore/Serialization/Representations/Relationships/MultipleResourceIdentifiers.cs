@@ -1,7 +1,7 @@
-﻿using NJsonApi.Serialization.Representations.Relationships;
+﻿using NJsonApiCore.Serialization.Representations.Relationships;
 using System.Collections.Generic;
 
-namespace NJsonApi.Serialization.Representations
+namespace NJsonApiCore.Serialization.Representations
 {
     public class MultipleResourceIdentifiers : List<SingleResourceIdentifier>, IResourceLinkage
     {

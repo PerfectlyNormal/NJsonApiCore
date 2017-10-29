@@ -2,13 +2,13 @@
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Newtonsoft.Json;
-using NJsonApi.Serialization;
-using NJsonApi.Web.MVCCore.BadActionResultTransformers;
+using NJsonApiCore.Serialization;
+using NJsonApiCore.Web.MVCCore.BadActionResultTransformers;
 using System;
 using System.IO;
 using System.Linq;
 
-namespace NJsonApi.Web
+namespace NJsonApiCore.Web
 {
     public class JsonApiResourceFilter : Attribute, IResourceFilter
     {

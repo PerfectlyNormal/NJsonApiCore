@@ -1,10 +1,10 @@
-﻿using NJsonApi.Web.MVC5.HelloWorld.Models;
+﻿using NJsonApiCore.Web.MVC5.HelloWorld.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace NJsonApi.Web.MVC5.HelloWorld.Controllers
+namespace NJsonApiCore.Web.MVC5.HelloWorld.Controllers
 {
     [RoutePrefix("people")]
     public class PeopleController : ApiController

@@ -1,11 +1,11 @@
-﻿using NJsonApi.Infrastructure;
+﻿using NJsonApiCore.Infrastructure;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace NJsonApi
+namespace NJsonApiCore
 {
     public class RelationshipMapping<TParent, TNested> : IRelationshipMapping
         where TNested : class

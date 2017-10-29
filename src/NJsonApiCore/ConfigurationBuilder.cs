@@ -1,12 +1,12 @@
-﻿using NJsonApi.Conventions;
-using NJsonApi.Conventions.Impl;
-using NJsonApi.Utils;
+﻿using NJsonApiCore.Conventions;
+using NJsonApiCore.Conventions.Impl;
+using NJsonApiCore.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace NJsonApi
+namespace NJsonApiCore
 {
     public class ConfigurationBuilder
     {

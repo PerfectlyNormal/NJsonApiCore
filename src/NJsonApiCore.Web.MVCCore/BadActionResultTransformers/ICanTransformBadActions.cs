@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using NJsonApi.Serialization.Documents;
+using NJsonApiCore.Serialization.Documents;
 
-namespace NJsonApi.Web.MVCCore.BadActionResultTransformers
+namespace NJsonApiCore.Web.MVCCore.BadActionResultTransformers
 {
     internal interface ICanTransformBadActions
     {

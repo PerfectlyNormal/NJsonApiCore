@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace NJsonApi
+namespace NJsonApiCore
 {
     public interface IResourceMapping
     {

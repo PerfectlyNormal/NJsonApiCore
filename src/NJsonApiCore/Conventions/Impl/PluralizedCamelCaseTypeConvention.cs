@@ -1,9 +1,9 @@
 ﻿using System;
 using Humanizer;
 using System.Globalization;
-using NJsonApi.Utils;
+using NJsonApiCore.Utils;
 
-namespace NJsonApi.Conventions.Impl
+namespace NJsonApiCore.Conventions.Impl
 {
     internal class PluralizedCamelCaseTypeConvention : IResourceTypeConvention
     {

@@ -1,13 +1,13 @@
-﻿using NJsonApi.Infrastructure;
-using NJsonApi.Serialization.Documents;
-using NJsonApi.Serialization.Representations.Resources;
-using NJsonApi.Test.Builders;
-using NJsonApi.Test.TestControllers;
+﻿using NJsonApiCore.Infrastructure;
+using NJsonApiCore.Serialization.Documents;
+using NJsonApiCore.Serialization.Representations.Resources;
+using NJsonApiCore.Test.Builders;
+using NJsonApiCore.Test.TestControllers;
 using System;
 using System.Collections.Generic;
 using Xunit;
 
-namespace NJsonApi.Test.Serialization.JsonApiTransformerTest
+namespace NJsonApiCore.Test.Serialization.JsonApiTransformerTest
 {
     public class TestMetadataWrapper
     {
@@ -136,7 +136,7 @@ namespace NJsonApi.Test.Serialization.JsonApiTransformerTest
             mapping.AddPropertyGetter("someValue", c => c.SomeValue);
             mapping.AddPropertyGetter("date", c => c.DateTime);
 
-            var config = new NJsonApi.Configuration();
+            var config = new NJsonApiCore.Configuration();
             config.AddMapping(mapping);
             return config;
         }

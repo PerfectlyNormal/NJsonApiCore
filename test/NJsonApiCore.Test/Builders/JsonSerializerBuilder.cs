@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NJsonApi.Test.Builders
+namespace NJsonApiCore.Test.Builders
 {
     public class JsonSerializerBuilder
     {

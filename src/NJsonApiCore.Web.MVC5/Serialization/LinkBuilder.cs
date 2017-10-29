@@ -1,5 +1,5 @@
-﻿using NJsonApi.Serialization;
-using NJsonApi.Serialization.Representations;
+﻿using NJsonApiCore.Serialization;
+using NJsonApiCore.Serialization.Representations;
 using NJsonApiCore.Web.MVC5;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Web.Http;
 using System.Web.Http.Description;
 
-namespace NJsonApi.Web.MVC5.Serialization
+namespace NJsonApiCore.Web.MVC5.Serialization
 {
     public class LinkBuilder : ILinkBuilder
     {

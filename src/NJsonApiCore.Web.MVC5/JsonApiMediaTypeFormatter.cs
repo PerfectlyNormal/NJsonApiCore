@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
 using NJsonApi;
-using NJsonApi.Infrastructure;
-using NJsonApi.Serialization;
-using NJsonApi.Serialization.Documents;
+using NJsonApiCore.Infrastructure;
+using NJsonApiCore.Serialization;
+using NJsonApiCore.Serialization.Documents;
 using System;
 using System.Collections.Generic;
 using System.IO;

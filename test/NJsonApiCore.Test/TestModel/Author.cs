@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace NJsonApi.Test.TestModel
+namespace NJsonApiCore.Test.TestModel
 {
     internal class Author
     {

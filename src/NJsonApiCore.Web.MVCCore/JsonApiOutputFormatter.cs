@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.Net.Http.Headers;
 using Newtonsoft.Json;
 
-namespace NJsonApi.Web.MVCCore
+namespace NJsonApiCore.Web.MVCCore
 {
     public class JsonApiOutputFormatter : JsonOutputFormatter
     {

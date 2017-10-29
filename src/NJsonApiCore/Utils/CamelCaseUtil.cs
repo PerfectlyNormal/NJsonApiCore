@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NJsonApi.Utils
+namespace NJsonApiCore.Utils
 {
     public static class CamelCaseUtil
     {

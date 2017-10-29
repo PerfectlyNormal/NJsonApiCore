@@ -2,7 +2,7 @@
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace NJsonApi.Utils
+namespace NJsonApiCore.Utils
 {
     public static class ExpressionUtils
     {

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Linq.Expressions;
-using NJsonApi.Utils;
+using NJsonApiCore.Utils;
 
-namespace NJsonApi.Conventions.Impl
+namespace NJsonApiCore.Conventions.Impl
 {
     internal class CamelCaseLinkNameConvention : ILinkNameConvention
     {

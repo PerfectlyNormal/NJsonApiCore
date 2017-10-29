@@ -1,7 +1,7 @@
-﻿using NJsonApi.Web.MVCCore.HelloWorld.Controllers;
-using NJsonApi.Web.MVCCore.HelloWorld.Models;
+﻿using NJsonApiCore.Web.MVCCore.HelloWorld.Controllers;
+using NJsonApiCore.Web.MVCCore.HelloWorld.Models;
 
-namespace NJsonApi.Web.MVCCore.HelloWorld
+namespace NJsonApiCore.Web.MVCCore.HelloWorld
 {
     public static class NJsonApiConfiguration
     {

@@ -1,8 +1,8 @@
-﻿using NJsonApi.Test.TestModel;
-using NJsonApi.Conventions.Impl;
+﻿using NJsonApiCore.Test.TestModel;
+using NJsonApiCore.Conventions.Impl;
 using Xunit;
 
-namespace NJsonApi.Test.Conventions
+namespace NJsonApiCore.Test.Conventions
 {
     public class SimpleLinkedIdConventionTests
     {

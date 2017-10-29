@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NJsonApi.Serialization.Representations
+namespace NJsonApiCore.Serialization.Representations
 {
     public class Error
     {

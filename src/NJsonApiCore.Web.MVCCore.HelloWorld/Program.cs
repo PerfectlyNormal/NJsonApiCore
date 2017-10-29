@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Builder;
 
-namespace NJsonApi.Web.MVCCore.HelloWorld
+namespace NJsonApiCore.Web.MVCCore.HelloWorld
 {
     public class Program
     {

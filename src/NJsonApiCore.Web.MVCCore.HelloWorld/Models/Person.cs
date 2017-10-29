@@ -1,4 +1,4 @@
-﻿namespace NJsonApi.Web.MVCCore.HelloWorld.Models
+﻿namespace NJsonApiCore.Web.MVCCore.HelloWorld.Models
 {
     public class Person
     {

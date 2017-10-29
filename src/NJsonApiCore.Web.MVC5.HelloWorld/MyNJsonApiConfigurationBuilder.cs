@@ -1,6 +1,6 @@
 ﻿using NJsonApi;
-using NJsonApi.Web.MVC5.HelloWorld.Controllers;
-using NJsonApi.Web.MVC5.HelloWorld.Models;
+using NJsonApiCore.Web.MVC5.HelloWorld.Controllers;
+using NJsonApiCore.Web.MVC5.HelloWorld.Models;
 using NJsonApiCore.Web.MVC5.HelloWorld.Controllers;
 using NJsonApiCore.Web.MVC5.HelloWorld.Models;
 using NJsonApiCore.Web.MVC5.HelloWorld.Models.Test;

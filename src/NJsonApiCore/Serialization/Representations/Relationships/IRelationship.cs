@@ -1,9 +1,9 @@
-﻿using NJsonApi.Serialization.Representations.Relationships;
+﻿using NJsonApiCore.Serialization.Representations.Relationships;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace NJsonApi.Serialization.Representations
+namespace NJsonApiCore.Serialization.Representations
 {
     public interface IRelationship
     {

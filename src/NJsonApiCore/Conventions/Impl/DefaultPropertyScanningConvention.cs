@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace NJsonApi.Conventions.Impl
+namespace NJsonApiCore.Conventions.Impl
 {
     internal class DefaultPropertyScanningConvention : IPropertyScanningConvention
     {

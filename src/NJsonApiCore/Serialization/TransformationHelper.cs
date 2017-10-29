@@ -1,16 +1,16 @@
-using NJsonApi.Exceptions;
-using NJsonApi.Infrastructure;
-using NJsonApi.Serialization.Representations;
-using NJsonApi.Serialization.Representations.Relationships;
-using NJsonApi.Serialization.Representations.Resources;
+using NJsonApiCore.Exceptions;
+using NJsonApiCore.Infrastructure;
+using NJsonApiCore.Serialization.Representations;
+using NJsonApiCore.Serialization.Representations.Relationships;
+using NJsonApiCore.Serialization.Representations.Resources;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using NJsonApi.Utils;
+using NJsonApiCore.Utils;
 
-namespace NJsonApi.Serialization
+namespace NJsonApiCore.Serialization
 {
     public class TransformationHelper
     {

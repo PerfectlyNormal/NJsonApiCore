@@ -1,11 +1,11 @@
-﻿using NJsonApi.Serialization;
+﻿using NJsonApiCore.Serialization;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace NJsonApi.Web.MVCCore
+namespace NJsonApiCore.Web.MVCCore
 {
     public class JsonApiExceptionFilter : ExceptionFilterAttribute
     {

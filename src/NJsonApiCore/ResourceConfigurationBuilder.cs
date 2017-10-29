@@ -1,6 +1,6 @@
-﻿using NJsonApi.Conventions;
-using NJsonApi.Infrastructure;
-using NJsonApi.Utils;
+﻿using NJsonApiCore.Conventions;
+using NJsonApiCore.Infrastructure;
+using NJsonApiCore.Utils;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace NJsonApi
+namespace NJsonApiCore
 {
     public class ResourceConfigurationBuilder<TResource, TController> : IResourceConfigurationBuilder
     {
